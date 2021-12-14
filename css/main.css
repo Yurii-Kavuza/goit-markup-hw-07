@@ -147,7 +147,6 @@ img {
 .header {
   border-bottom: 1px solid var(--header-border-color);
 }
-
 .header__container {
   display: flex;
   align-items: center;
@@ -156,7 +155,6 @@ img {
 .main-nav {
   display: flex;
 }
-
 .main-nav__logo {
   margin-right: 93px;
 }
@@ -187,36 +185,18 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-header-color);
-}
-
-.contacts__link {
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--primary-paragraph-color);
-}
-
-.menu__link,
-.contacts__link {
   transition: color var(--first-transition-duration) var(--first-transition-function);
   -webkit-transition: color var(--first-transition-duration) var(--first-transition-function);
   -moz-transition: color var(--first-transition-duration) var(--first-transition-function);
   -ms-transition: color var(--first-transition-duration) var(--first-transition-function);
   -o-transition: color var(--first-transition-duration) var(--first-transition-function);
 }
-
-.menu__link--current,
-.menu__link:hover,
-.menu__link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
+.menu__link--current, .menu__link:hover, .menu__link:focus {
   color: var(--primary-active-color);
 }
-
 .menu__link--current {
   position: relative;
 }
-
 .menu__link--current::after {
   content: "";
   position: absolute;
@@ -226,6 +206,21 @@ img {
   height: 4px;
   background: var(--primary-active-color);
   border-radius: 2px;
+}
+
+.contacts__link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--primary-paragraph-color);
+  transition: color var(--first-transition-duration) var(--first-transition-function);
+  -webkit-transition: color var(--first-transition-duration) var(--first-transition-function);
+  -moz-transition: color var(--first-transition-duration) var(--first-transition-function);
+  -ms-transition: color var(--first-transition-duration) var(--first-transition-function);
+  -o-transition: color var(--first-transition-duration) var(--first-transition-function);
+}
+.contacts__link:hover, .contacts__link:focus {
+  color: var(--primary-active-color);
 }
 
 .contacts__icon {
