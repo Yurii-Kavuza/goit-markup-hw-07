@@ -1,20 +1,20 @@
 /*Header*/
 .header {
 	border-bottom: 1px solid var(--header-border-color);
+}
 
-	&__container {
-		display: flex;
+.header__container {
+	display: flex;
 
-		align-items: center;
-	}
+	align-items: center;
 }
 
 .main-nav {
 	display: flex;
+}
 
-	&__logo {
-		margin-right: 93px;
-	}
+.main-nav__logo {
+	margin-right: 93px;
 }
 
 .main-nav__menu,
@@ -31,10 +31,7 @@
 	margin-left: auto;
 }
 
-.menu__item:not(:last-child) {
-	margin-right: 50px;
-}
-
+.menu__item:not(:last-child),
 .contacts__item:not(:last-child) {
 	margin-right: 30px;
 }

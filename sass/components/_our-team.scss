@@ -22,30 +22,28 @@
 	}
 }
 
-.team-member {
-	&__info {
-		padding-top: 30px;
-		padding-bottom: 30px;
+.team-member__info {
+	padding-top: 30px;
+	padding-bottom: 30px;
 
-		font-size: 16px;
-		line-height: 1.19;
-	}
-	&__name {
-		margin-bottom: 10px;
-		font-weight: 500;
-	}
+	font-size: 16px;
+	line-height: 1.19;
+}
+.team-member__name {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
 
-	&__title {
-		margin-bottom: 16px;
+.team-member__title {
+	margin-bottom: 16px;
 
-		font-weight: 400;
+	font-weight: 400;
 
-		color: var(--primary-paragraph-color);
-	}
+	color: var(--primary-paragraph-color);
+}
 
-	&__social-icons {
-		justify-content: center;
+.team-member__social-icons {
+	justify-content: center;
 
-		color: var(--icon-backrgound-color);
-	}
+	color: var(--icon-backrgound-color);
 }
