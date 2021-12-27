@@ -1,2 +1,2 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
 The GoIT repository for the seventh homework
